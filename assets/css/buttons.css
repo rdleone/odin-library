@@ -1,0 +1,47 @@
+button {
+    cursor: pointer;
+}
+
+.action-btn {
+    padding: 8px;
+    box-shadow: 2px 4px 2px rgb(0, 0, 0);
+    border: none;
+    border-radius: 32px;
+    font-size: 0;
+}
+
+.create-btn {
+    background-color: rgb(100, 255, 110);
+}
+
+.create-btn:hover {
+    background-color: rgb(86, 214, 94);
+}
+
+.create-btn:active {
+    background-color: rgb(75, 184, 83);
+}
+
+.delete-btn {
+    background-color: rgb(216, 70, 70);
+}
+
+.delete-btn:hover {
+    background-color: rgb(180, 48, 48);
+}
+
+.delete-btn:active {
+    background-color: rgb(160, 42, 42);
+}
+
+.toggle-btn {
+    background-color: rgb(255, 255, 255);
+}
+
+.toggle-btn:hover {
+    background-color: rgb(202, 202, 202);
+}
+
+.toggle-btn:active {
+    background-color: rgb(179, 179, 179);
+}

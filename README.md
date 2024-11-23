@@ -1,2 +1,2 @@
 # odin-library
-Project: Library from The Odin Project
+Project: Library from the Javascript path in The Odin Project

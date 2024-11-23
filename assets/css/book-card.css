@@ -1,0 +1,41 @@
+.book-card {
+    background-color: rgb(210, 131, 255);
+    text-align: center;
+    padding: 8px;
+    margin: 16px;
+    border: 2px solid black;
+}
+
+.card-header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 8px;
+    height: min-content;
+}
+
+.card-header button {
+    visibility: hidden;
+}
+
+.card-body {
+    border: 2px solid rgb(200, 77, 40);
+    word-wrap: break-word;
+}
+
+.book-card:hover button {
+    visibility: visible;
+}
+
+#book-author {
+    color: rgb(44, 44, 44);
+}
+
+#book-pagecount {
+    color: rgb(67, 67, 67);
+}
+
+#book-read-text {
+    min-height: 24px;
+    color: gold;
+}

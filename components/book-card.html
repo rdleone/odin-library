@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/book-card.css">
+    <link rel="stylesheet" href="./assets/css/buttons.css">
+    <title>Book Card</title>
+</head>
+<body>
+    <div class="book-card">
+        <div class="card-header">
+            <button id="toggle-read" class="action-btn toggle-btn">
+                <img class="action-icon--small" src="./assets/svg/eye-disabled.svg" alt="read">
+            </button>
+            <button id="delete-book" class="action-btn delete-btn">
+                <img class="action-icon--small" src="./assets/svg/delete.svg" alt="delete">
+            </button>
+        </div>
+        <div class="card-body">
+            <h1 id="book-title"></h1>
+            <h2 id="book-author"></h2>
+            <h3 id="book-pagecount"></h3>
+            <p id="book-read-text"> </p>
+        </div>
+    </div>
+</body>
+</html>

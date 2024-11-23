@@ -1,0 +1,70 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+dialog {
+    width: 25%;
+    min-width: 200px;
+    height: min-content;
+    padding: 2rem;
+    border: 2px solid black;
+}
+
+input {
+    padding: 4px;
+}
+
+input:invalid {
+    border: 1px solid rgb(208, 33, 33);
+}
+
+label {
+    color: rgb(58, 58, 58);
+    letter-spacing: 1px;
+}
+
+.form-input {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-btn {
+    padding: 4px 16px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 4px 4px rgb(214, 214, 214);
+}
+
+#modal-cancel {
+    background-color: rgb(255, 129, 129);
+}
+
+#modal-cancel:hover {
+    background-color: rgb(226, 111, 111);
+}
+
+#modal-cancel:active {
+    background-color: rgb(204, 87, 87);
+}
+
+#modal-submit {
+    background-color: greenyellow;
+}
+
+#modal-submit:hover {
+    background-color: rgb(151, 226, 39);
+}
+
+#modal-submit:active {
+    background-color: rgb(127, 194, 27);
+}
